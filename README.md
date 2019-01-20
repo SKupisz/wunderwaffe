@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Aviable to see on: https://41zl0pj1w.codesandbox.io/
+## How to use it?
+Right: next slide
+Left: previous slide
 ## Available Scripts
 
 In the project directory, you can run:
