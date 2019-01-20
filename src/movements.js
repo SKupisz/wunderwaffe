@@ -12,7 +12,7 @@ document.addEventListener("keydown", function(event){
         {opacity: 1}],
       {duration: 500,
       iterations: 1});
-      document.querySelector(address).style.display = "block";     
+      document.querySelector(address).style.display = "block";
       barWidth -= adder;
       if(barWidth == 0)
       {
@@ -38,7 +38,7 @@ document.addEventListener("keydown", function(event){
   }
   if(event.keyCode == 39) // right
   {
-    if (now < 26) {
+    if (now < 25) {
       address = "#s" + now;
       document.querySelector(address).style.display = "none";
       now++;
@@ -50,7 +50,7 @@ document.addEventListener("keydown", function(event){
           duration: 500,
           iterations: 1
         });
-      document.querySelector(address).style.display = "block";       
+      document.querySelector(address).style.display = "block";
       barWidth+=adder;
       document.querySelector(".goOn").animate([
         { width: (barWidth - adder)+ "%" },
