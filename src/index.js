@@ -54,16 +54,17 @@ function App() {
   return (
     <div className="App">
       <Bar id="progressBar" />
+
       <First title = "Wunderwaffe" author = "Szymon Kupisz" id = "s1" class = "silde"/>
       <Slide title="Co to takiego?" paragraphs={[
-        "Kraj -> 卐niemcy卐", 
+        "Kraj -> 卐niemcy卐",
         "Nie wymyślone przez nazistów",
       "Powietrzne, wodne, lądowe"]}id = "s2" class = "slide"/>
       <Slide title = "Powietrzne" paragraphs = {[
         "Werner von Braun",
         "Amerika Bomber",
         "Broń masowego rażenia - koncepcja i wdrażanie",
-        "Pociski Okha"]} 
+        "Pociski Okha"]}
         id = "s3" class = "slide"/>
       <PhotoSlide title="Fieseler Fi 103" id="s4" photo= "https://dzieje.pl/sites/default/files/styles/open_article_750x0_/public/201308/rakieta_v1.jpg?itok=sJj13seH"/>
       <PhotoSlide title="V2" id="s5" photo= "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bundesarchiv_Bild_141-1880%2C_Peenem%C3%BCnde%2C_Start_einer_V2.jpg/240px-Bundesarchiv_Bild_141-1880%2C_Peenem%C3%BCnde%2C_Start_einer_V2.jpg"/>
@@ -100,7 +101,7 @@ function App() {
         id = "s23" class = "slide"/>
       <PhotoSlide title="Goebbels" id="s24" photo= "https://pbs.twimg.com/media/DE4Loa0XYAUKr2a.jpg"/>
       <Ending title = "Koniec" id = "s25" class = "slide"/>
-      
+
     </div>
   );
 }
